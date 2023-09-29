@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container">
-    	<h2 class="text-center mt-4 mb-4">Convert Excel to HTML Table using JavaScript</h2>
+    	<h2 class="text-center mt-4 mb-4"></h2>
     	<div class="card">
     		<div class="card-header"><b>Select Excel File</b></div>
     		<div class="card-body">
@@ -19,16 +19,10 @@
 
     		</div>
     	</div>
-		<button id="arrange">Click</button>
-		<button onclick="ExportToExcel('xlsx')">Export table to excel</button>
+		<button id="arrange" class="btn btn-primary m-2">Convert</button>
+		<button class="btn btn-primary m-2" onclick="ExportToExcel('xlsx')">Export table to excel</button>
 		<table id="tbl_exporttable_to_xls" >
-			<thead>
-				<th>Ime</th>
-				<th>Država</th>
-				<th>Dokument</th>
-				<th>Datum rođenja</th>
-				<th>Pol</th>
-			</thead>
+			
 			<tbody id="newList">
 				
 			</tbody>
